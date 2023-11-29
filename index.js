@@ -43,7 +43,7 @@ let gameEngine = () => {
         inputDir = { x: 0, y: 0 };
         alert("Game over, Press any key to restart the game");
         snakeArr = [{ x: 13, y: 15 }]
-        // musicSound.play();
+        musicSound.play();
         score = 0;
     }
 
